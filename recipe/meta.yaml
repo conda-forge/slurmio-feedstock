@@ -1,5 +1,5 @@
 {% set name = "slurmio" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/slurmio-{{ version }}.tar.gz
-  sha256: 168846a2dc54c293ec33cc36cb9f14ff80bbb9bc054cae6772e771deedde15a7
+  sha256: dc2ddbaae1babfc0ec8fea45e52cd57ec97571f088965561ccd5a94c3f7a0cde
 
 build:
   noarch: python
